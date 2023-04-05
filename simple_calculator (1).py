@@ -50,7 +50,7 @@ while True:
     #
     else:
         print("Invalid operation")
-        break # Invalid operation이므로 연산결과를 출력하지 않고 "넘어간다".
+        continue# Invalid operation이므로 연산결과를 출력하지 않고 "넘어간다".
     print(f"{num1}{op}{num2} = {ret}")  # 연산 결과를 출력
 
 print("Exit program")
